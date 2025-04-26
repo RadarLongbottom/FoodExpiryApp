@@ -88,7 +88,7 @@ const ProductFormScreen = ({ navigation }) => {
         style={{ marginBottom: 10 }}
       />
       <HelperText visible={parseInt(quantity) <= 0}>
-        Ilość musi być większa od zera
+        Ilość musi być większa od zera.
       </HelperText>
 
       <SegmentedButtons
