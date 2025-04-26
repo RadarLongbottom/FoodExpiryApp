@@ -4,10 +4,14 @@
 node_modules/
 
 # Expo
+node_modules/
 .expo/
-dist/
-web-build/
-expo-env.d.ts
+.expo-shared/
+npm-debug.log
+yarn-error.log
+.DS_Store
+.env
+
 
 # Native
 *.orig.*
